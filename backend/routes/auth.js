@@ -9,6 +9,7 @@ router.post('/', (req, res) => {
     const user = User(req.body);
     user.save();
     res.send("hello akshit");
+    res.send(req.body);
 
 })
 
