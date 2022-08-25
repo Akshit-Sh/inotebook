@@ -7,12 +7,12 @@ const NotesSchema = new Schema({
     },
 
     descrpition:{
-        type: string,
+        type: String,
         required: true
     },
 
     tag:{
-        type: string
+        type: String
     },
 
     Date:{
